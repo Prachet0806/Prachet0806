@@ -1,114 +1,145 @@
 # Hi, I'm Prachet 👋
 
-### Software Engineer | Backend • Cloud • Systems • Security
+### Backend Engineer · Systems & Infrastructure
 
-I build software systems across backend engineering, cloud infrastructure,
-systems programming, and security.
+I build software that reasons about **state, constraints, resources, and failure** — from optimization-driven applications and transactional backend systems to network analysis and distributed workload orchestration.
 
-I enjoy working on problems involving distributed systems, infrastructure
-automation, networking, identity governance, and performance.
+I'm interested in the engineering behind reliable software: how systems coordinate work, preserve correctness, use resources efficiently, and behave under failure.
 
----
-
-## 🚀 Featured Projects
-
-### ☁️ [Distributed Spot Orchestrator](https://github.com/Prachet0806/Distributed_Spot_Orchestrator)
-
-A distributed AWS control system that reduces compute costs by migrating
-running workloads between EC2 Spot instances using checkpoint/restore.
-
-**Python · AWS EC2 · S3 · DynamoDB · Terraform · CRIU**
+[Portfolio](https://prachet-portfolio-nine.vercel.app/projects) · [LinkedIn](https://www.linkedin.com/in/prachet-sensarma-3a08a92b2/) · [GitHub](https://github.com/Prachet0806)
 
 ---
 
-### 💰 [AWS Waste Hunter](https://github.com/Prachet0806/aws_waste_hunter)
+## Featured Projects
 
-Serverless FinOps automation that discovers idle AWS resources, estimates
-avoidable costs, checks tagging compliance, and generates operational reports.
+### 01 · EcoRace — Constraint-Based Calendar Optimization
 
-**Python · AWS Lambda · EventBridge · Boto3 · CloudWatch · SNS · S3**
+**Backend Engineering · Optimization · Full-Stack Development**
+
+A deployed decision-support application that constructs and optimizes an F1 calendar across real-world venues, balancing travel distance against scheduling, circuit uniqueness, and weather-feasibility constraints.
+
+- Built a standalone optimization core with a FastAPI application layer and Next.js frontend.
+- Uses a CP-SAT and heuristic solver portfolio to generate candidate schedules.
+- Validates solutions independently and distinguishes feasible timeout results from proven optimal solutions.
+- Includes route visualization, scheduling diagnostics, and baseline comparisons.
+
+**Stack:** `Python` · `FastAPI` · `OR-Tools` · `Next.js` · `TypeScript` · `MapLibre`
+
+[Live Demo](https://eco-race-two.vercel.app/) · [Source Code](https://github.com/Prachet0806/EcoRace)
+
+### 02 · WizDesk — Transactional Team Workflow Platform
+
+**Backend Engineering · API Design · Data Integrity**
+
+A team task-management platform built around controlled membership, task assignments, progress tracking, and safe concurrent updates.
+
+- Enforces role and team-membership rules across API operations.
+- Applies task edits atomically and uses revision checks to detect stale updates.
+- Models assignment transfers, archival behavior, and task progress transitions.
+- Includes backend, browser-workflow, and PostgreSQL concurrency testing.
+
+**Stack:** `Python` · `Django` · `Django REST Framework` · `PostgreSQL` · `JavaScript` · `Playwright`
+
+[Source Code](https://github.com/Prachet0806/WizDesk)
+
+### 03 · Packet Sniffer & Protocol Analyzer
+
+**Systems Programming · Networking · Concurrency**
+
+A multithreaded packet-capture and protocol-analysis tool written in C, designed to explore network traffic from link-layer frames through selected application protocols.
+
+- Separates packet capture and analysis using a threaded architecture and synchronized buffering.
+- Implements protocol parsing across Ethernet, IPv4/IPv6, TCP/UDP, ICMP, DNS, HTTP, TLS metadata, and DHCP.
+- Supports persistent statistics, JSON export, and containerized workflows.
+
+**Stack:** `C` · `libpcap` · `POSIX Threads` · `CMake` · `PostgreSQL` · `Docker`
+
+[Source Code](https://github.com/Prachet0806/Packet_Sniffer)
+
+### 04 · AWS Waste Hunter — Read-Only Cloud FinOps
+
+**Cloud Infrastructure · Serverless Architecture · Cost Analysis**
+
+A serverless pipeline that discovers potentially wasteful AWS resources and generates evidence-backed reports without automatically modifying or deleting infrastructure.
+
+- Uses AWS Step Functions to coordinate isolated scanner Lambdas.
+- Organizes run state and scan artifacts using DynamoDB and S3.
+- Produces auditable findings and notifications through SNS.
+- Treats uncertain pricing and incomplete cost data explicitly rather than presenting estimates as realized savings.
+
+**Stack:** `Python` · `AWS Lambda` · `Step Functions` · `EventBridge` · `DynamoDB` · `S3` · `SNS`
+
+[Source Code](https://github.com/Prachet0806/aws_waste_hunter)
+
+### 05 · Distributed Spot Workload Orchestrator
+
+**Distributed Systems · Workload Scheduling · Fault Recovery**
+
+A workload-orchestration project exploring cost-aware execution on AWS EC2 Spot capacity, with checkpointing and recovery as central design concerns.
+
+- Explores scheduling workloads against variable-cost compute resources.
+- Integrates AWS infrastructure components for workload state and artifact management.
+- Investigates checkpoint-and-restore workflows using CRIU.
+- Focuses on the trade-offs between execution cost, interruption risk, recovery, and coordination.
+
+**Stack:** `Python` · `AWS EC2 Spot` · `DynamoDB` · `S3` · `Terraform` · `CRIU`
+
+[Source Code](https://github.com/Prachet0806/Distributed_Spot_Orchestrator)
+
+### 06 · LegacyLock — Digital Legacy Vault
+
+**Backend Engineering · Security Architecture · Cryptography**
+
+A security-focused proof of concept for storing encrypted messages and releasing them to designated beneficiaries under configurable inactivity and recovery rules.
+
+- Implements browser-side message encryption and key-wrapping workflows.
+- Explores Shamir Secret Sharing for recovery, beneficiary access, and controlled release.
+- Models heartbeat, grace-period, and triggered states with guarded transitions.
+- Includes authentication, recovery flows, audit-related functionality, and backend tests.
+
+**Stack:** `TypeScript` · `Next.js` · `FastAPI` · `PostgreSQL` · `Web Crypto API` · `Pytest`
+
+[Source Code](https://github.com/Prachet0806/legacylock)
 
 ---
 
-### 🛡️ [GenAI IAM Governance](https://github.com/Prachet0806/GenAI_IAM_Governance)
+## Technical Toolkit
 
-IAM access certification engine that discovers identities, evaluates
-entitlement risk, generates review campaigns, and performs safety-gated
-remediation with audit artifacts.
+**Languages**
 
-**Python · AWS IAM · Security · GenAI · SQLite/PostgreSQL**
+`Python` · `C++` · `C` · `TypeScript` · `JavaScript`
 
----
+**Backend & Data**
 
-### 🌐 [Packet Sniffer](https://github.com/Prachet0806/Packet_Sniffer)
+`FastAPI` · `Django` · `REST APIs` · `PostgreSQL` · `SQLite` · `SQLAlchemy`
 
-Multithreaded packet capture and protocol analysis system with persistent
-traffic statistics and support for common network protocols.
+**Cloud & Infrastructure**
 
-**C · libpcap · POSIX Threads · PostgreSQL · Networking**
+`AWS` · `Lambda` · `EC2` · `S3` · `DynamoDB` · `CloudWatch` · `EventBridge` · `Step Functions` · `Terraform` · `Docker`
 
----
+**Systems & Engineering**
 
-### 🔐 [IDSentinel](https://github.com/Prachet0806/IDSentinel)
-
-Identity reconciliation and security finding engine designed around
-transactional persistence, policy-driven risk evaluation, and immutable
-audit records.
-
-**C++17 · CMake · libcurl · SQLite · OpenSSL**
+`Linux` · `Networking` · `Concurrency` · `CMake` · `Cryptography` · `OR-Tools` · `Pytest` · `Playwright` · `CI/CD`
 
 ---
 
-### 🖥️ [CPU Microarchitecture Simulator](https://github.com/Prachet0806/CPU-Sim)
+## Engineering Interests
 
-Behavioral CPU simulator for exploring cache behavior, pipeline stalls,
-branch prediction, and AI-style workload performance.
+- **Backend systems:** API contracts, transactions, concurrency, and data integrity
+- **Distributed systems:** scheduling, coordination, fault tolerance, and recovery
+- **Cloud infrastructure:** orchestration, resource efficiency, and cost-aware execution
+- **Systems programming:** networking, computer architecture, and performance
+- **Reliability and observability:** telemetry pipelines, diagnostics, and operational insights
+- **Security engineering:** identity, authorization, cryptographic boundaries, and secure state transitions
 
-**C++17 · CMake · Computer Architecture · Performance Engineering**
+## Currently Exploring
 
----
-
-## 🧰 Technical Stack
-
-### Languages
-`C` · `C++` · `Python` · 
-
-### Backend & Databases
-`Django` · `Django REST Framework` · `PostgreSQL` · `SQLite` · `REST APIs`
-
-### Cloud & Infrastructure
-`AWS` · `Azure` · `Lambda` · `EC2` · `S3` · `DynamoDB` · `CloudWatch` · `Terraform`
-
-### Systems & Security
-`Linux` · `Networking` · `libpcap` · `IAM` · `Identity Governance` ·
-`Concurrency`
-
-### Engineering
-`Git` · `GitHub` · `Pytest` · `CI/CD` · `API Testing`
+- Kubernetes and cloud-native infrastructure
+- Distributed tracing and observability
+- Rust and Go open-source ecosystems
+- Distributed coordination, scheduling, and failure recovery
+- Systems and infrastructure for AI workloads
 
 ---
 
-## 🧠 Engineering Interests
-
-- Distributed systems & cloud infrastructure
-- Backend architecture & APIs
-- Systems programming & performance
-- Security engineering & identity
-- Networking & infrastructure
-- Reliable automation
-
----
-
-## 🌱 Currently Learning
-
-- Data Structures & Algorithms
-- System Design
-- Distributed Systems
-- Cloud Architecture
-- Open Source Development
-
----
-
-## 📫 Connect
-
-[LinkedIn](https://www.linkedin.com/in/prachet-sensarma-3a08a92b2/) · [Portfolio](https://prachet-portfolio-nine.vercel.app/)
+*I value systems that are not only functional, but explainable, testable, and honest about their limitations.*

@@ -22,11 +22,11 @@ A team workflow platform focused on transactional task updates, authorization, a
 
 `Python` · `Django REST Framework` · `PostgreSQL` · `JavaScript`
 
-### 03 · [Packet Sniffer](https://github.com/Prachet0806/Packet_Sniffer) — [README](https://github.com/Prachet0806/Packet_Sniffer#readme)
+### 03 · [LegacyLock](https://github.com/Prachet0806/legacylock) — [README](https://github.com/Prachet0806/legacylock#readme)
 
-A multithreaded C-based packet analyzer supporting protocol parsing, traffic statistics, and persistent storage.
+A security-focused digital vault proof of concept featuring browser-side encryption, Shamir secret sharing, and controlled data release.
 
-`C` · `libpcap` · `POSIX Threads` · `PostgreSQL` · `Docker`
+`TypeScript` · `Next.js` · `FastAPI` · `PostgreSQL` · `Web Crypto API`
 
 ### 04 · [AWS Waste Hunter](https://github.com/Prachet0806/aws_waste_hunter) — [README](https://github.com/Prachet0806/aws_waste_hunter#readme)
 
@@ -40,11 +40,11 @@ A cost-aware workload orchestration project exploring AWS Spot compute, checkpoi
 
 `Python` · `AWS EC2` · `DynamoDB` · `S3` · `Terraform` · `CRIU`
 
-### 06 · [LegacyLock](https://github.com/Prachet0806/legacylock) — [README](https://github.com/Prachet0806/legacylock#readme)
+### 06 · [Packet Sniffer](https://github.com/Prachet0806/Packet_Sniffer) — [README](https://github.com/Prachet0806/Packet_Sniffer#readme)
 
-A security-focused digital vault proof of concept featuring browser-side encryption, Shamir secret sharing, and controlled data release.
+A multithreaded C-based packet analyzer supporting protocol parsing, traffic statistics, and persistent storage.
 
-`TypeScript` · `Next.js` · `FastAPI` · `PostgreSQL` · `Web Crypto API`
+`C` · `libpcap` · `POSIX Threads` · `PostgreSQL` · `Docker`
 
 ---
 

@@ -10,13 +10,13 @@ I build software that reasons about **state, constraints, resources, and failure
 
 ## Featured Projects
 
-### 01 · [EcoRace](https://github.com/Prachet0806/EcoRace) — [README](https://github.com/Prachet0806/EcoRace#readme) [LIVE](https://eco-race-two.vercel.app/)
+### 01 · [EcoRace](https://github.com/Prachet0806/EcoRace) — [README](https://github.com/Prachet0806/EcoRace#readme)       [LIVE](https://eco-race-two.vercel.app/)
 
 A deployed F1 calendar optimization platform balancing travel distance, scheduling constraints, and circuit feasibility.
 
 `Python` · `FastAPI` · `OR-Tools` · `Next.js` · `TypeScript`
 
-### 02 · [LegacyLock](https://github.com/Prachet0806/legacylock) — [README](https://github.com/Prachet0806/legacylock#readme)  [LIVE](https://legacylcok.tech)
+### 02 · [LegacyLock](https://github.com/Prachet0806/legacylock) — [README](https://github.com/Prachet0806/legacylock#readme)       [LIVE](https://legacylock.tech)
 
 A security-focused digital vault proof of concept featuring browser-side encryption, Shamir secret sharing, and controlled data release.
 

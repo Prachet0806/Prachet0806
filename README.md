@@ -10,23 +10,24 @@ I build software that reasons about **state, constraints, resources, and failure
 
 ## Featured Projects
 
-### 01 · [EcoRace](https://github.com/Prachet0806/EcoRace) — [README](https://github.com/Prachet0806/EcoRace#readme)
+### 01 · [EcoRace](https://github.com/Prachet0806/EcoRace) — [README](https://github.com/Prachet0806/EcoRace#readme) [LIVE](https://eco-race-two.vercel.app/)
 
 A deployed F1 calendar optimization platform balancing travel distance, scheduling constraints, and circuit feasibility.
 
 `Python` · `FastAPI` · `OR-Tools` · `Next.js` · `TypeScript`
 
-### 02 · [WizDesk](https://github.com/Prachet0806/WizDesk) — [README](https://github.com/Prachet0806/WizDesk#readme)
+### 02 · [LegacyLock](https://github.com/Prachet0806/legacylock) — [README](https://github.com/Prachet0806/legacylock#readme)  [LIVE](https://legacylcok.tech)
+
+A security-focused digital vault proof of concept featuring browser-side encryption, Shamir secret sharing, and controlled data release.
+
+`TypeScript` · `Next.js` · `FastAPI` · `PostgreSQL` · `Web Crypto API`
+
+### 03 · [WizDesk](https://github.com/Prachet0806/WizDesk) — [README](https://github.com/Prachet0806/WizDesk#readme)
 
 A team workflow platform focused on transactional task updates, authorization, assignment management, and concurrency-safe operations.
 
 `Python` · `Django REST Framework` · `PostgreSQL` · `JavaScript`
 
-### 03 · [LegacyLock](https://github.com/Prachet0806/legacylock) — [README](https://github.com/Prachet0806/legacylock#readme)
-
-A security-focused digital vault proof of concept featuring browser-side encryption, Shamir secret sharing, and controlled data release.
-
-`TypeScript` · `Next.js` · `FastAPI` · `PostgreSQL` · `Web Crypto API`
 
 ### 04 · [AWS Waste Hunter](https://github.com/Prachet0806/aws_waste_hunter) — [README](https://github.com/Prachet0806/aws_waste_hunter#readme)
 
